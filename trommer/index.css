@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+}
+
+main div {
+    padding: 8px;
+    border: 1px solid white;
+
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+}
+
+main kbd {
+    font-size: 32px;
+    color: lightskyblue;
+    border-bottom: 1px solid lightskyblue;
+    padding: 5px;
+}
+
+main span {
+    padding-top: 5px;
+}
